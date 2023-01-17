@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="modal_window_div">
+    </div>
+    <!-- <div class="music"></div>
+<button>NEXT</button>
+ -->
+    <aside>
+        <div class="four_blocks_in_aside flexx">
+            <div>
+                <div class="first_block"></div>
+                <h2>Spotify</h2>
+            </div>
+        </div>
+        <div class="four_blocks_in_aside second_block">
+            <span class="gray_colors">Navigation</span>
+            <p class="home_page_text">Home page</p>
+            <p class="playlist_text">Playlist</p>
+            <p class="settings_text">Settings</p>
+        </div>
+        <div class="four_blocks_in_aside third_block">
+            <p class="gray_colors">Playlists</p>
+            <span class="like_and_text">LIked songs <img src="./Icons/love.svg" alt=""></span>
+
+            <p class="dancing_text">Tancevalnie</p>
+
+        </div>
+        <div class="four_blocks_in_aside fourth_block">
+            <span class="gray_colors">Liked songs</span>
+            <div class="scroll_block_in_aside scroll_mda">
+            </div>
+        </div>
+    </aside>
+    <div class="container">
+        <header>
+            <div class="input_in_header">
+                <div class="flex_block_in_header"><img src="./Icons/search.svg" class="search_button " alt="">
+
+                    <img src="./Icons/search.svg" class=" search_icon" alt="">
+                    <img src="./Icons/134216_menu_lines_hamburger_icon.svg" alt="" class="menu_active"> <input
+                        type="text" placeholder="Search by name and artist" class="typing">
+                </div>
+
+                <div class="flex_block_in_header_2">
+                </div>
+            </div>
+            <input type="text" placeholder="Search by name and artist" class="typing22">
+            <div class="div_for_search"></div>
+
+            <div class="div_text_name"> <img src="./Icons/logo.svg" alt="" class="logo_in_header">
+                <div><b class="name_b">Alex adams</b>
+                    <p class="free_user"> free user</p>
+                    <p class="premium_us">Premium user</p>
+
+                </div>
+            </div>
+        </header>
+        <div class="settings_block">
+            <div class="in_settings_three_blocks first_settings_block">
+                <h2>Settings</h2>
+                <form action="#" name="settings_name">
+                    <p>Your name</p>
+                    <input type="text" placeholder="Name" class="new_name">
+            </div>
+            <div class="in_settings_three_blocks second_settings_block">
+                <p>Free or Premium</p>
+                <div class="flex_box_block">
+                    <div id="toggles">
+                        <input type="checkbox" name="checkbox1" id="checkbox2" class="ios-toggle" />
+                        <label for="checkbox2" class="checkbox-label"></label>
+                    </div>
+                    <span>Premium user</span>
+
+                </div>
+            </div>
+            <div class="in_settings_three_blocks third_settings_block">
+                <p class="no_songs">No more settings <img
+                        src="./Icons/sad-emoji-transparent-background-png-11577028890cxryn8gv2b.png" alt=""
+                        class="emoji"></p>
+                <br>
+                <button>Save</button>
+                </form>
+            </div>
+        </div>
+        <div class="add_to_playlist_modal_window">
+            <div class="two_wrap_block_in_add_playlist onees">
+                <h2>ADD TO PLAYLIST</h2> <img src="./Icons/close.svg" class="close_img" alt="">
+            </div>
+            <div class="two_wrap_block_in_add_playlist twoes">
+                <div class="six_item_block_in_playlist">
+                    <p>Liked songs</p> <span class="lenght_songs">0 songs</span>
+                </div>
+                <div class="six_item_block_in_playlist">
+                    <p>Tancevalniye</p> <span>0 songs</span>
+                </div>
+                <div class="six_item_block_in_playlist">
+                    <p class="neww"></p> <span class="newww"></span>
+                </div>
+                <div class="six_item_block_in_playlist">
+
+                </div>
+                <div class="six_item_block_in_playlist">
+                    <p class="create_playlist">создать новый плейлист</p>
+                </div>
+                <div class="six_item_block_in_playlist opacity_block">
+                    <form action="" name="add_to_playlist">
+                        <input type="text" placeholder="Name of playlist" class="name_of_playlist">
+                        <button>Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="two_blocks_in_main first_block_in_main">
+                <div class="repeat_two_blocks_in_main first_repeat_block">
+                    <div class="two_item_block first"><span class="name_of_author"> </span>
+                        <p class="name_of_music">
+                        </p>
+                        <p style="font-size: 16px; margin: 10px 0;">3:53</p>
+                    </div>
+                    <div class="div">
+                        <div class="two_item_block second">
+                            <img src="./Icons/arrow-left.svg" alt="" class="arrow_left">
+                            <img src="./Icons/arrow-right.svg" alt="" class="arrow_right">
+                        </div>
+                        <div class="div_for_four_block">
+                            <div class="four_block_in_for_block first_carousel"></div>
+                            <div class="four_block_in_for_block second_carousel"></div>
+                            <div class="four_block_in_for_block third_carousel"></div>
+                            <div class="four_block_in_for_block last_carousel"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="repeat_two_blocks_in_main second_repeat_block">
+                    <div class="div_for_bg_image"><img id="carousel" alt=""></div>
+                </div>
+            </div>
+
+            <div class="two_blocks_in_main second_blocks_in_main ">
+                <div class="three_block_block_main random_music"><span class="title_block">10 random songs</span>
+
+                </div>
+                <div class="three_block_block_main liked_tracks">
+                    <span class="title_block">Liked tracks</span>
+                </div>
+                <div class="three_block_block_main recently_listened"><span class="title_block">Recendly listened</span>
+                </div>
+            </div>
+        </main>
+        <div class="pseudo_main">
+            <div class="second_blocks_in_main1 ">
+                <div class="three_block_block_main first_pseude_main_block"><span class="title_block">LIKED SONGS</span>
+                    <h2 class="go_to_playlist oneOne">GO TO PLAYLIST</h2>
+                </div>
+
+                <div class="three_block_block_main"><span class="title_block">TANCEVALNIE</span>
+                    <h2 class="go_to_playlist threeThree">GO TO PLAYLIST</h2>
+                </div>
+            </div>
+        </div>
+        <div class="favorite_songs_block">
+            <div class="second_blocks_in_main1 ">
+                <div class="three_block_block_main"><span class="title_block">Liked songs</span>
+                </div>
+
+                <div class="three_block_block_main"><span class="title_block">Tancevalniye</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="liked_songs_block">
+            <h2><span> &laquo;LIKED SONGS&raquo; </span> PLAYLIST</h2>
+            <span class="liked_text"> </span>
+            <div class="second_blocks_in_main1 ">
+                <div class="three_block_block_main won">
+                </div>
+                <div class="three_block_block_main">
+                </div>
+                <div class="three_block_block_main">
+                </div>
+            </div>
+        </div>
+
+        <div class="dancing_block">
+            <div class="in_settings_three_blocks first_settings_block">
+                <h2> <span>&laquo;TANCEVALNIE&raquo;</span> PLAYLIST
+                </h2>
+                <span>0 songs</span>
+                <p class="no_songs">No songs here, bye bye <img
+                        src="./Icons/sad-emoji-transparent-background-png-11577028890cxryn8gv2b.png" alt=""
+                        class="emoji"></p>
+            </div>
+        </div>
+        <div class="new_playlists">
+            <div class="in_settings_three_blocks first_settings_block">
+                <h2> <span class="name_of_playlists">&laquo;&raquo;</span> PLAYLIST
+                </h2>
+                <span>0 songs</span>
+                <p class="no_songs">No songs here, bye bye <img
+                        src="./Icons/sad-emoji-transparent-background-png-11577028890cxryn8gv2b.png" alt=""
+                        class="emoji"></p>
+            </div>
+        </div>
+        <div class="player_list">
+            <div class="div_for_bg_image image1"><img id="carousels" alt=""></div>
+            <div class="div_in_player">
+                <div class="name_songs_and_like"> <span class="name_of_author author1"> </span>
+                    <p class="name_of_music music1">
+                    </p>
+                </div>
+                <div class="name_songs_and_like"><img src="./Icons/love.svg" alt="" class="likes"></div>
+            </div>
+            <div class=" one_img">
+                <div class="div_repeat"> <img src="./Icons/repeat.svg"
+                        class="blue_block blue_block_one buttonRepeat  repeat1" alt=""></div>
+                <div class="divs">
+                    <img src="./Icons/track-next.svg" alt="" class="button_prev1">
+                    <div class="play_block play1">
+                        <img src="./Icons/play.svg" alt="">
+                    </div>
+                    <img src="./Icons/track-prev.svg" alt="" class="buttonNext1">
+                </div>
+                <div class="div_random"><img src="./Icons/random.svg" class="blue_block random1" alt=""></div>
+            </div>
+            <div class="time_line"></div>
+            <button class="go_back">GO BACK</button>
+        </div>
+    </div>
+    </div>
+    <div class="div_for_blur_bg"></div>
+    <footer>
+        <div class="divv">
+            <div class="three_block_in_footer  first_footer "><b class="author_name">The Weeknd</b>
+                <p class="music_name">Starboy</p>
+            </div>
+            <div class="three_block_in_footer second_block_in_footer">
+                <div class="two_block_in_blocks_footer img_block">
+                    <img src="./Icons/repeat.svg" class="blue_block blue_block_one buttonRepeat" alt="">
+                    <img src="./Icons/track-next.svg" alt="" class="button_prev">
+                    <img src="./Icons/more-horizontal.svg" class="more more1" alt="">
+                    <div class="play_block play">
+                        <img src="./Icons/play.svg" alt="">
+                    </div>
+                    <img src="./Icons/track-prev.svg" alt="" class="buttonNext">
+                    <img src="./Icons/random.svg" class="blue_block" alt="">
+                </div>
+                <div class="two_block_in_blocks_footer musicss">
+                    <div class="music"></div>
+
+                </div>
+            </div>
+            <div class="three_block_in_footer third_block_in_footer"></div>
+        </div>
+        <div class="fig">
+
+            <span class="start"></span>
+
+            <div class="div_timeline">
+                <div class=".progress_bar"></div>
+            </div>
+            <span class="end"></span>
+        </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/other.js"></script>
+    <script src="./js/data.js"></script>
+    <script type="module" src="./js/music_player.js"></script>
+    <script src="./js/carousel.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <button class="buttonNext">NEXT</button>
+<button class="buttonRepeat">REPEAT TRACK</button>
+<button class="getTime">GET TIME</button> -->
+
+<!-- <div class="progress">
+    <div></div>
+</div>
+
+<style>
+    .progress {
+        position: fixed;
+        bottom: 24px;
+        left: 24px;
+        right: 24px;
+        border-radius: 25px;
+        overflow: hidden;
+        background-color: #f0f0f0;
+        height: 20px;
+    }
+
+    .progress div {
+        height: 100%;
+        width: 0;
+        background-color: blue;
+        transition: 1s linear;
+    }
+
+    .active {
+        background-color: blue;
+        color: #Fff;
+    }
+</style> -->
+
+<!-- <div class="modal_window_div">
+    <div class="in_modal_window_three_block dislike">
+        <p>Dislike</p>
+    </div>
+    <div class="in_modal_window_three_block add_to_playList">
+        <p>Add to playlist</p>
+    </div>
+    <div class="in_modal_window_three_block listen_now">
+        <p>listen now</p>
+    </div>
+</div> -->
+
+<!-- <div class="ten_block_in_main">
+    <div class="two_block_in_ten_block first_in_ten">
+        <img src="./Icons/bussiness-man.png" alt="">
+        <span>
+            <p>STAY</p> justin bieber
+        </span>
+    </div>
+    <div class="two_block_in_ten_block second_in_ten">
+        <img src="./Icons/love.svg" alt="">
+        <span>3:53</span> <img src="./Icons/more-horizontal.svg" class="more" alt="">
+      
+    </div>
+</div> -->
